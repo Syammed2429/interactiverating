@@ -14,7 +14,6 @@ export const Submitted = (props: SubmittedInterface) => {
                     <Box
                         p="8"
                         w={{ base: '100%', md: '55%', lg: '50%' }}
-                        color="white"
 
                     >
 
@@ -48,7 +47,9 @@ export const Submitted = (props: SubmittedInterface) => {
                                         </Box>
                                     </Center>
                                 </CardHeader>
-                                <CardBody>
+                                <CardBody
+                                    color="white"
+                                >
                                     <Text>Thank you!</Text>
                                     <Text
                                         fontSize='sm'
